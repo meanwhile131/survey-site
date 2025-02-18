@@ -31,3 +31,14 @@ button {
     text-align: justify;
     display: block;
 }
+
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px;
+}
+
+table {
+    border-collapse: collapse;
+}
