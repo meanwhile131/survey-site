@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] != "POST") {
         </tr>
         <?php
         foreach ($categories as $category_id => $category) {
-            echo "<tr><td style='text-align: left'>{$category[0][0]}</td><td>$points[$category_id]</td><td>{$category[0][1]}</td><td>{$category[0][2]}</td><td>{$category[0][3]}</td>";
+            echo "<tr><td style='text-align: left'>{$category[0][0]}</td><td>$points[$category_id]</td><td>{$category[0][1]} и более</td><td>{$category[0][2]} и более</td><td>{$category[0][3]}</td>";
         }
         ?>
     </table>
