@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="main.css">
     <title>Шкала оценки зависимости от персонального компьютера, интернета и мобильных устройств, обеспечивающих доступ
         к нему</title>
+    <!-- Yandex.RTB -->
+    <script>window.yaContextCb = window.yaContextCb || []</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
 </head>
 
 <body>
@@ -36,6 +39,17 @@
             <button type="submit">Отправить</button>
         </form>
     </div>
+    <!-- Yandex.RTB R-A-14854911-1 -->
+    <div id="yandex_rtb_R-A-14854911-1"></div>
+    <script>
+        window.yaContextCb.push(() => {
+            Ya.Context.AdvManager.render({
+                "blockId": "R-A-14854911-1",
+                "renderTo": "yandex_rtb_R-A-14854911-1",
+                "type": "feed"
+            })
+        })
+    </script>
 </body>
 
 </html>
