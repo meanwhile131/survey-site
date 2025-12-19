@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Шкала оценки зависимости от персонального компьютера, интернета и мобильных устройств, обеспечивающих доступ к нему">
     <link rel="stylesheet" href="main.css">
     <title>Шкала оценки зависимости от персонального компьютера, интернета и мобильных устройств, обеспечивающих доступ
         к нему</title>
