@@ -26,12 +26,12 @@
                     $questions_shuffled[$key] = $questions[$key];
                 }
                 foreach ($questions_shuffled as $id => $question) {
-                    echo "<label class='question'>$question<br><div class='answer_container'>";
+                    echo "<p class='question'>$question<br><div class='answer_container'>";
                     $category = explode('-', $id)[0];
                     foreach ($categories[$category][1] as $answer_id => list($answer_value, $answer_name)) {
                         echo "<label class='answer'><input type='radio' name='$id' value='$answer_id' required>$answer_name</label>";
                     }
-                    echo "</div></label>";
+                    echo "</div></p>";
                 }
                 ?>
                 <br>
